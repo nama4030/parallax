@@ -1,0 +1,33 @@
+//default styles
+
+body {
+  background: $bgcolor;
+  font-family: $font;
+  height: 100%;
+}
+
+// .container {
+//   max-width: 960px;
+//   margin: 0 auto;
+// }
+
+h1,h2,h3,h4 {
+  font-family: $headfont;
+  animation-delay: 10ms;
+}
+
+body{
+  // text-align: center;
+  // @include box;
+}
+
+[data-aos="slide-left"]{
+  visibility: visible !important;
+  //transition-delay: 3s !important;
+  // transition-duration: 5s !important;
+}
+
+[data-aos="slide-right"]{
+  visibility: visible !important;
+  // transition-duration: 5s !important;
+}

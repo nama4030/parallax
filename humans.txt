@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Napass Masathienvong>
+
+# THANKS
+
+    <>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, Javascript, Node, Sass, Gulp
+    Analytics, jQuery, Modernizr, Normalize.css

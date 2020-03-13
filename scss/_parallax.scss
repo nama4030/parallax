@@ -1,0 +1,253 @@
+//parallax
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin:0;
+  padding:0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Roboto;
+}
+
+h1 {
+   font-size: 300%
+}
+
+p {
+  font-size: 140%;
+  line-height: 150%;
+  color: white;
+}
+
+.dashline {
+  border-top: 4px dashed white;
+}
+
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .05);
+	transform-style: inherit;
+}
+
+#imgdiver {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  width: 400px;
+  height: 150px;
+  transform: translateZ(.50px) scale(.55) translateX(-94%) translateY(-100%) rotate(0);
+}
+
+#imgdolphin {
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  width: 260px;
+  height: 200px;
+  transform: translateZ(.50px) scale(.55) translateX(-94%) translateY(-100%) rotate(0);
+}
+
+#imgsubmarine {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  width: 400px;
+  height: 300px;
+  transform: translateZ(.50px) scale(.55) translateX(-94%) translateY(-100%) rotate(0);
+}
+
+#imgsixgillshark {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  width: 400px;
+  height: 250px;
+  transform: translateZ(.50px) scale(.55) translateX(-94%) translateY(-100%) rotate(0);
+}
+
+#imgsquid {
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  width: 400px;
+  height: 200px;
+  transform: translateZ(.50px) scale(0.6) translateX(-94%) translateY(-100%) rotate(0);
+}
+
+#imgwhale {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  width: 500px;
+  height: 250px;
+  transform: translateZ(.50px) scale(.55) translateX(-94%) translateY(-100%) rotate(0);
+}
+
+#imgtitanic {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  width: 350px;
+  height: 300px;
+  transform: translateZ(.50px) scale(0.5) translateX(-94%) translateY(-100%) rotate(0);
+}
+
+#imgminisub {
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  width: 250px;
+  height: 250px;
+  transform: translateZ(.50px) scale(.55) translateX(-94%) translateY(-100%) rotate(0);
+}
+
+#imgplane {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  width: 300px;
+  height: 150px;
+  transform: translateZ(.50px) scale(0.6) translateX(-94%) translateY(-100%) rotate(0);
+}
+
+#imgdrill {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  width: 350px;
+  height: 300px;
+  transform: translateZ(.50px) scale(0.5) translateX(-94%) translateY(-100%) rotate(0);
+}
+
+img:last-of-type {
+  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(0);
+}
+
+
+.title {
+  width: 50%;
+  padding: 5%;
+  border-radius: 5px;
+  color: white;
+}
+
+.specialtitle {
+  width: 50%;
+  padding: 5%;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 25px;
+  border-style: solid;
+}
+
+.slide:nth-child(2n) .title {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slide:nth-child(2n+1) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.slide, .slide:before {
+  background: 50% 50% / cover;
+}
+
+  .header {
+    text-align: center;
+    font-size: 175%;
+    color: #fff;
+    // text-shadow: 0 2px 2px #000;
+  }
+
+#title {
+  background-image: url("../img/ocean.jpg");
+  z-index:2;
+}
+
+#title h1 {
+ transform: translateZ(.25px) scale(0.75);
+ transform-origin: 50% 100%;
+}
+
+#slide1 {
+  background-color: #2B97F0;
+}
+
+#slide2 {
+  background: #2990E6;
+  text-align: right;
+}
+
+#slide3 {
+  background: #278ADC;
+}
+
+#slide4 {
+  background: #2584D2;
+  text-align: center;
+}
+
+#slide5 {
+  background: #237EC8;
+}
+
+#slide6 {
+  background: #2278BE;
+  text-align: right;
+}
+
+#slide7 {
+  background: #2072B4;
+  text-align: left;
+}
+
+#slide8 {
+  background: #1E6BAB;
+  text-align: center;
+}
+
+#slide9{
+  background: #1C65A1;
+  text-align: left;
+}
+
+#slide10 {
+  background: #1B5F97;
+  text-align: right;
+}
+
+#slide11 {
+  background: #19598D;
+  text-align: center;
+}
+
+#slide12{
+  background: #175383;
+  text-align: right;
+}
+
+#slide13 {
+  background: #154D79;
+  text-align: left;
+}
+
+#slideend {
+  background: #144770  ;
+}
