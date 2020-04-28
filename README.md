@@ -1,4 +1,7 @@
 # Parallax Scrolling
+
+Explore the Ocean Depths!
+
 ## Made for Creative Web Development
 
 * Tools
